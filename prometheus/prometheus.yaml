@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'netdata'
+    static_configs:
+      - targets: ['5.188.74.220:19999']  # IP-адрес Netdata
